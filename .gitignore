@@ -1,0 +1,32 @@
+
+CEDED114-53F8-4097-87CF-2707C80EC68A.jpg
+Git
+StarbucksAutomator
+coffeefy-1.3.1
+ sokol@Sokol  ~/Desktop  cd StarbucksAutomator
+ sokol@Sokol  ~/Desktop/StarbucksAutomator  ls
+StarbucksAutomator           StarbucksAutomatorTests
+StarbucksAutomator.xcodeproj StarbucksAutomatorUITests
+ sokol@Sokol  ~/Desktop/StarbucksAutomator  >....
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+
+## Xcode 8 and earlier
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.toptal.com/developers/gitignore/api/xcode,swift,cocoapods,macos
