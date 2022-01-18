@@ -7,11 +7,15 @@
 
 import Cocoa
 
-
+@main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     private var window: NSWindow?
 
+    override init() {
+        super.init()
+        print("AppDelegate init")
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         window = NSWindow.init(contentRect: NSRect(x: 0, y: 0, width: 400, height: 400), styleMask: [.miniaturizable, .closable, .resizable, .titled], backing: .buffered, defer: false)
