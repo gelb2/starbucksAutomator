@@ -17,6 +17,7 @@ class MyApp: NSApplication {
     override init() {
         super.init()
         self.delegate = strongDelegate
+        self.menu = AppMenu()
     }
     
     required init?(coder: NSCoder) {

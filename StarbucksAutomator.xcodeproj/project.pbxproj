@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3A0CB12796DDF3006A42B5 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A0CB02796DDF3006A42B5 /* AppMenu.swift */; };
 		4CBE54682792C4CC007C8743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE54672792C4CC007C8743 /* AppDelegate.swift */; };
 		4CBE546A2792C4CC007C8743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE54692792C4CC007C8743 /* ViewController.swift */; };
 		4CBE546C2792C4CC007C8743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBE546B2792C4CC007C8743 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3A0CB02796DDF3006A42B5 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 		4CBE54642792C4CC007C8743 /* StarbucksAutomator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksAutomator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBE54672792C4CC007C8743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CBE54692792C4CC007C8743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				4CBE54672792C4CC007C8743 /* AppDelegate.swift */,
 				4CBE54942792D846007C8743 /* Main.swift */,
 				4CEB50572796CA8E00813EF7 /* PrincipalClass.swift */,
+				4C3A0CB02796DDF3006A42B5 /* AppMenu.swift */,
 			);
 			path = Application_init_related;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				4CBE54952792D846007C8743 /* Main.swift in Sources */,
 				4CBE54972796ACE9007C8743 /* StarbucksLoginBot.swift in Sources */,
 				4CBE54932792CC52007C8743 /* SecondViewController.swift in Sources */,
+				4C3A0CB12796DDF3006A42B5 /* AppMenu.swift in Sources */,
 				4CBE546A2792C4CC007C8743 /* ViewController.swift in Sources */,
 				4CEB50582796CA8E00813EF7 /* PrincipalClass.swift in Sources */,
 				4CBE54682792C4CC007C8743 /* AppDelegate.swift in Sources */,
